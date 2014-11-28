@@ -59,16 +59,22 @@ main .article .intro{
 }
 
 /*FOOTER*/
+footer{
+	background-color: black;
+	padding: 5px;
+}
 footer p{
+	color: white;
 	margin: 5px;
 }
 footer .feuilles{
-	margin-top: -75px;
+	margin-top: -80px;
+	color:black;
 }
 footer .feuille{
 	display: inline-block;
 	font-family: aierbazziregular;
-	font-size: 70px;
+	font-size: 80px;
 	margin: 0 10px;
 }
 
