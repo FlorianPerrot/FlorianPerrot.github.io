@@ -26,6 +26,7 @@ header menu nav{
 }
 header menu nav:hover{
 	color: rgba(0,0,0,0.5);
+	background-color: rgba(150,150,150,0.8);
 }
 header img{
 	max-width: 100%;
