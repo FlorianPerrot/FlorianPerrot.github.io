@@ -16,7 +16,7 @@ h2{
 header{
 	text-align: center;
 }
-header menu nav{
+header nav a{
 	display: inline-block;
 	margin: 10px 20px;
 	padding: 5px;
@@ -24,7 +24,7 @@ header menu nav{
 	background-color: rgb(250,250,250);
 	cursor: pointer;
 }
-header menu nav:hover{
+header nav a:hover{
 	color: rgba(0,0,0,0.5);
 	background-color: rgba(150,150,150,0.8);
 }
@@ -70,7 +70,7 @@ footer .feuille{
 
 /*MEDIA*/
 @media only screen and (max-width: 700px){
-	header menu nav{
+	header nav a{
 		display: block;
 	}
 	main .article{
