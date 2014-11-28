@@ -39,6 +39,7 @@ main{
 	margin-bottom: 70px;
 }
 main .article{
+	vertical-align: top;
 	background-color: rgba(255,255,255,0.8);
 	text-align: left;
 	display: inline-block;
