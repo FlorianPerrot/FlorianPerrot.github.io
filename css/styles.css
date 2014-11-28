@@ -12,6 +12,7 @@ h2{
 	font-size: 30px;
 }
 
+/*HEADER*/
 header{
 	text-align: center;
 }
@@ -26,4 +27,25 @@ header menu nav:hover{
 header img{
 	max-width: 100%;
 	height: auto;
+}
+
+/*MAIN*/
+main .article{
+	text-align: left;
+	display: inline-block;
+	width: 450px;
+	margin: 5px;
+	padding: 10px;
+}
+
+main .article img{
+	margin: 5px;
+	width: 150px;
+}
+main .article p {
+	padding: 0 5px;
+	margin: 5px 0;
+}
+main .article .intro{
+	font-style : italic;
 }
