@@ -54,3 +54,19 @@ main .article .intro{
 footer p{
 	margin: 5px;
 }
+
+/*MEDIA*/
+@media only screen and (max-width: 700px){
+	header menu nav{
+		display: block;
+	}
+	main .article{
+		display: block;
+		width: auto;
+		padding: 10px;
+	}
+	main .article img{
+		width: 80px;
+		float: left;
+	}
+}
