@@ -70,3 +70,20 @@ footer p{
 		float: left;
 	}
 }
+@media only screen and (max-width: 370px){
+	main .article img{
+		display: inline;
+		float: left;
+	}
+	main .article h2{
+		display: inline;
+	}
+	main p {
+		visibility: hidden;
+		display: none;
+	}
+	main .intro{
+		visibility: visible;
+		display: block;
+	}
+}
