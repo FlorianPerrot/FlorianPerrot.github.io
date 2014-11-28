@@ -49,3 +49,8 @@ main .article p {
 main .article .intro{
 	font-style : italic;
 }
+
+/*FOOTER*/
+footer p{
+	margin: 5px;
+}
