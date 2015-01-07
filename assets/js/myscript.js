@@ -13,8 +13,7 @@ function ajoutFeuille(monSol){
 $(document).ready(function(){
   var $feuilles = $('.feuilles');
   var $menu1 = $('.menu1');
-
-  $menu1.click(function(){
+  $feuilles.click(function(){
     console.log('Ajout d\'une feuille.');
     ajoutFeuille($feuilles);
   });
