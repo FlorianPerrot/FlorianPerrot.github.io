@@ -31,14 +31,14 @@ header nav a:hover{
 
 /*MAIN*/*
 #small-menu{
+	background: #428bca;
 	visibility: hidden;
 
-	position: absolute;
-	top:0;left:0;
+	position: fixed;
+	top:20px;left:0;
+	padding: 10px;
 }
 #small-menu > i{
-	padding: 10px;
-
 	font-size: 50px;
 	color: black;
 }

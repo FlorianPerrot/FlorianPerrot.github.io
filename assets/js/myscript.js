@@ -18,6 +18,8 @@ $(document).ready(function(){
     ajoutFeuille($feuilles);
   });
 
+  console.log($('#page').height());
+
   // Toggle Nav on Click
   $('#small-menu').click(function() {
     // Calling a function in case you want to expand upon this.
