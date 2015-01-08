@@ -17,4 +17,11 @@ $(document).ready(function(){
     console.log('Ajout d\'une feuille.');
     ajoutFeuille($feuilles);
   });
+
+  // Toggle Nav on Click
+  $('#small-menu').click(function() {
+    // Calling a function in case you want to expand upon this.
+    console.log("toogleNav");
+    toggleNav();
+  });
 });
