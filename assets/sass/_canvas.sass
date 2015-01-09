@@ -21,17 +21,18 @@
       -webkit-backface-visibility: hidden
       backface-visibility: hidden
 
-    #site-menu
-      width: 300px
-      height: 100%
-      position: absolute
-      top: 0
-      left: -300px
-      background: #428bca
+      #site-menu
+        width: 300px
+        height: 100%
+        position: absolute
+        top: 0
+        left: -300px
+        background: #428bca
 
-  .show-nav #site-canvas
-    -webkit-transform: translateX(300px)
-    transform: translateX(300px)
+  .show-nav
+    #site-canvas
+      -webkit-transform: translateX(300px) !important
+      transform: translateX(300px) !important
 
-    -webkit-transform: translate3d(300px, 0, 0)
-    transform: translate3d(300px, 0, 0)
+      -webkit-transform: translate3d(300px, 0, 0) !important
+      transform: translate3d(300px, 0, 0) !important
