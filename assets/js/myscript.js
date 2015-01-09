@@ -13,17 +13,14 @@ function ajoutFeuille(monSol){
 $(document).ready(function(){
   var $feuilles = $('.feuilles');
   var $menu1 = $('.menu1');
+
   $feuilles.click(function(){
     console.log('Ajout d\'une feuille.');
     ajoutFeuille($feuilles);
   });
 
-  console.log($('#page').height());
-
-  // Toggle Nav on Click
   $('#small-menu').click(function() {
-    // Calling a function in case you want to expand upon this.
-    console.log("toogleNav");
+    console.log("Action sur le menu");
     toggleNav();
   });
 });
