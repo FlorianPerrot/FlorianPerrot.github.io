@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="pause" unicode="&#xe800;" d="m857 743v-786q0-14-10-25t-26-11h-285q-15 0-25 11t-11 25v786q0 14 11 25t25 11h285q15 0 26-11t10-25z m-500 0v-786q0-14-10-25t-26-11h-285q-15 0-25 11t-11 25v786q0 14 11 25t25 11h285q15 0 26-11t10-25z" horiz-adv-x="857.1" />
+<glyph glyph-name="play" unicode="&#xe801;" d="m772 333l-741-412q-13-7-22-2t-9 20v822q0 14 9 20t22-2l741-412q13-7 13-17t-13-17z" horiz-adv-x="785.7" />
+<glyph glyph-name="fork" unicode="&#xe802;" d="m161 29q0 22-16 38t-38 15-38-15-15-38 15-38 38-16 38 16 16 38z m0 642q0 23-16 38t-38 16-38-16-15-38 15-38 38-15 38 15 16 38z m357-71q0 22-16 38t-38 16-38-16-15-38 15-38 38-16 38 16 16 38z m53 0q0-29-14-54t-39-39q-1-160-126-231-38-21-114-45-71-22-94-39t-23-56v-15q24-14 39-39t14-53q0-45-31-76t-76-32-76 32-31 76q0 29 15 53t39 39v458q-25 14-39 39t-15 53q0 45 31 76t76 32 76-32 31-76q0-29-14-53t-39-39v-278q30 15 86 32 30 10 49 17t39 17 33 22 22 29 16 38 5 51q-25 14-39 39t-15 54q0 45 31 76t76 31 76-31 31-76z" horiz-adv-x="571.4" />
+<glyph glyph-name="down" unicode="&#xe803;" d="m427 125q4-10-3-19l-195-215q-6-5-13-5-8 0-13 5l-198 215q-8 9-3 19 5 11 16 11h125v696q0 8 5 13t13 5h107q8 0 13-5t5-13v-696h125q11 0 16-11z" horiz-adv-x="428.6" />
+<glyph glyph-name="menu" unicode="&#xe804;" d="m857 100v-71q0-15-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 25t25 11h785q15 0 26-11t10-25z m0 286v-72q0-14-10-25t-26-10h-785q-15 0-25 10t-11 25v72q0 14 11 25t25 10h785q15 0 26-10t10-25z m0 285v-71q0-15-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 26t25 10h785q15 0 26-10t10-26z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>

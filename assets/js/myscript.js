@@ -13,6 +13,7 @@ function ajoutFeuille(monSol){
 $(document).ready(function(){
   var $feuilles = $('.feuilles');
   var $menu1 = $('.menu1');
+  var $video = $("#bgvid");
 
   $feuilles.click(function(){
     console.log('Ajout d\'une feuille.');
@@ -23,4 +24,18 @@ $(document).ready(function(){
     console.log("Action sur le menu");
     toggleNav();
   });
+
+  $video.click(function(){
+    if($video.get(0).paused){
+      console.log("Pause video");
+      $video.get(0).play();}
+    else{
+      console.log("Play video");
+      $video.get(0).pause();}
+  });
+
+  $('.menu1').click(function(){
+    $video.get(0).play();
+    $('#site-wrapper').removeClass('show-nav');
+  })
 });
