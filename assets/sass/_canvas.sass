@@ -26,8 +26,17 @@
         left: -300px
         background: $menu
 
+    #small-menu
+      +transform(translateX(0))
+      +transform(translate3d(0, 0, 0))
+      +transition(1s ease all)
+
 .show-nav
   #site-canvas
     +tablette-media()
       +transform(translateX(300px) !important)
       +transform(translate3d(300px, 0, 0) !important)
+  #small-menu
+    +tablette-media()
+      +transform(translateX(-70px) !important)
+      +transform(translate3d(-70px, 0, 0) !important)
