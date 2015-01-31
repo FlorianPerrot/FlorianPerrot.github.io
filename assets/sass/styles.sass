@@ -105,6 +105,7 @@ main
           display: inline
 
       p
+        text-align: justify
         padding: 0 5px
         margin: 5px 0
         +smartphone-media()
@@ -125,10 +126,20 @@ footer
 
   #text-footer
     background-color: black
-    padding: 20px
+    padding: 20px 0
 
-    p
-      color: white
+    .block-footer
+      vertical-align: top
+      width: calc(50% - 43px)
+      display: inline-block
+      padding: 0 20px
+      color: rgb(70,70,70)
+      +tablette-media()
+        width: auto
+        margin: 10px 0
+      p, a
+        color: rgb(70,70,70)
+        font-size: 0.85em
 
   #top-footer
     text-align: center

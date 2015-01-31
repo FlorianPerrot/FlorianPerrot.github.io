@@ -173,6 +173,7 @@ main {
         main #articles .article h2 {
           display: inline; } }
       main #articles .article p {
+        text-align: justify;
         padding: 0 5px;
         margin: 5px 0; }
         @media only screen and (max-width: 370px) {
@@ -191,9 +192,20 @@ footer {
   margin-top: 67px; }
   footer #text-footer {
     background-color: black;
-    padding: 20px; }
-    footer #text-footer p {
-      color: white; }
+    padding: 20px 0; }
+    footer #text-footer .block-footer {
+      vertical-align: top;
+      width: calc(50% - 43px);
+      display: inline-block;
+      padding: 0 20px;
+      color: #464646; }
+      @media only screen and (max-width: 700px) {
+        footer #text-footer .block-footer {
+          width: auto;
+          margin: 10px 0; } }
+      footer #text-footer .block-footer p, footer #text-footer .block-footer a {
+        color: #464646;
+        font-size: 0.85em; }
   footer #top-footer {
     text-align: center; }
     footer #top-footer .notif {
