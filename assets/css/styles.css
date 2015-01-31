@@ -144,27 +144,36 @@ header {
 
 main {
   text-align: center;
-  margin-bottom: 70px; }
+  margin-bottom: 20px; }
   main #articles {
     width: auto; }
     main #articles .cv-categorie {
       vertical-align: top;
-      margin: 50px 40px 10px 40px;
+      margin: 50px 30px 10px 30px;
       background-color: #323232;
-      width: 700px;
-      display: inline-block; }
+      display: inline-block;
+      padding-bottom: 5px; }
+      @media only screen and (min-width: 1024px) {
+        main #articles .cv-categorie {
+          width: 40%; } }
       @media only screen and (max-width: 700px) {
         main #articles .cv-categorie {
           width: auto; } }
+      @media only screen and (max-width: 370px) {
+        main #articles .cv-categorie {
+          margin: 20px 0 0 0; } }
       main #articles .cv-categorie .cv-categorie-header {
         background-color: white;
         margin: 10px -20px; }
+        @media only screen and (max-width: 370px) {
+          main #articles .cv-categorie .cv-categorie-header {
+            margin: 0; } }
       main #articles .cv-categorie .article {
         vertical-align: top;
         background-color: white;
         text-align: left;
         display: inline-block;
-        width: 600px;
+        width: calc(100% - 40px);
         min-height: 100px;
         margin: 5px;
         padding: 10px; }
@@ -172,6 +181,7 @@ main {
           main #articles .cv-categorie .article {
             display: block;
             width: auto;
+            min-height: 100px;
             padding: 10px; } }
         main #articles .cv-categorie .article img {
           margin: 5px;
@@ -213,7 +223,7 @@ main {
 
 /*FOOTER */
 footer {
-  margin-top: 67px; }
+  margin-top: 20px; }
   footer #text-footer {
     background-color: black;
     padding: 20px 0; }
