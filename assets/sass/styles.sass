@@ -34,19 +34,20 @@ header
       display: inline-block
       margin: 10px 20px
       padding: 5px
-      border: solid 1px rgb(210,210,210)
-      background-color: rgb(250,250,250)
+      border: solid 1px black
+      //background-color: rgb(250,250,250)
       color: black
       cursor: pointer
       +tablette-media()
         display: block
 
     a:hover
-      color: rgba(0,0,0,0.5)
-      background-color: rgba(150,150,150,0.8)
+      color: white
+      background-color: black
 
 #top-page
   video
+    z-index: 3
     display: block
     min-width: 100%
     min-height: 100%
@@ -68,6 +69,7 @@ header
   padding: 10px
   +tablette-media()
     visibility: visible
+    z-index: 10
 
   i
     font-size: 25px
@@ -91,7 +93,7 @@ main
       +tablette-media()
         width: auto
       +smartphone-media()
-        margin: 20px 0 0 0 
+        margin: 20px 0 0 0
       .cv-categorie-header
         background-color: white
         margin: 10px -20px

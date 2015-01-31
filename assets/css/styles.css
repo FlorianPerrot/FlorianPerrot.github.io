@@ -105,18 +105,18 @@ header {
     display: inline-block;
     margin: 10px 20px;
     padding: 5px;
-    border: solid 1px #d2d2d2;
-    background-color: #fafafa;
+    border: solid 1px black;
     color: black;
     cursor: pointer; }
     @media only screen and (max-width: 700px) {
       header nav a {
         display: block; } }
   header nav a:hover {
-    color: rgba(0, 0, 0, 0.5);
-    background-color: rgba(150, 150, 150, 0.8); }
+    color: white;
+    background-color: black; }
 
 #top-page video {
+  z-index: 3;
   display: block;
   min-width: 100%;
   min-height: 100%;
@@ -137,7 +137,8 @@ header {
   padding: 10px; }
   @media only screen and (max-width: 700px) {
     #small-menu {
-      visibility: visible; } }
+      visibility: visible;
+      z-index: 10; } }
   #small-menu i {
     font-size: 25px;
     color: black; }
