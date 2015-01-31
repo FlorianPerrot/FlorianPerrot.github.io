@@ -79,7 +79,8 @@
     -ms-transform: translate3d(-70px, 0, 0) !important; } }
 
 body {
-  background-color: rgba(0, 0, 0, 0.07); }
+  background-color: rgba(0, 0, 0, 0.15);
+  font-family: "Droid Sans", sans-serif; }
 
 img {
   max-width: 100%;
@@ -106,6 +107,7 @@ header {
     padding: 5px;
     border: solid 1px #d2d2d2;
     background-color: #fafafa;
+    color: black;
     cursor: pointer; }
     @media only screen and (max-width: 700px) {
       header nav a {
@@ -145,47 +147,69 @@ main {
   margin-bottom: 70px; }
   main #articles {
     width: auto; }
-    main #articles .article {
+    main #articles .cv-categorie {
       vertical-align: top;
-      background-color: white;
-      text-align: left;
-      display: inline-block;
-      width: 450px;
-      margin: 5px;
-      padding: 10px; }
+      margin: 50px 40px 10px 40px;
+      background-color: #323232;
+      width: 700px;
+      display: inline-block; }
       @media only screen and (max-width: 700px) {
-        main #articles .article {
-          display: block;
-          width: auto;
-          padding: 10px; } }
-      main #articles .article img {
+        main #articles .cv-categorie {
+          width: auto; } }
+      main #articles .cv-categorie .cv-categorie-header {
+        background-color: white;
+        margin: 10px -20px; }
+      main #articles .cv-categorie .article {
+        vertical-align: top;
+        background-color: white;
+        text-align: left;
+        display: inline-block;
+        width: 600px;
+        min-height: 100px;
         margin: 5px;
-        width: 150px; }
+        padding: 10px; }
         @media only screen and (max-width: 700px) {
-          main #articles .article img {
-            width: 80px;
-            float: left; } }
-        @media only screen and (max-width: 370px) {
-          main #articles .article img {
-            display: inline;
-            float: left; } }
-      @media only screen and (max-width: 370px) {
-        main #articles .article h2 {
-          display: inline; } }
-      main #articles .article p {
-        text-align: justify;
-        padding: 0 5px;
-        margin: 5px 0; }
-        @media only screen and (max-width: 370px) {
-          main #articles .article p {
-            visibility: hidden;
-            display: none; } }
-      main #articles .article .intro {
-        font-style: italic; }
-        @media only screen and (max-width: 370px) {
-          main #articles .article .intro {
-            visibility: visible;
-            display: block; } }
+          main #articles .cv-categorie .article {
+            display: block;
+            width: auto;
+            padding: 10px; } }
+        main #articles .cv-categorie .article img {
+          margin: 5px;
+          min-width: 150px; }
+          @media only screen and (max-width: 700px) {
+            main #articles .cv-categorie .article img {
+              min-width: 80px;
+              float: left; } }
+          @media only screen and (max-width: 370px) {
+            main #articles .cv-categorie .article img {
+              display: inline;
+              float: left; } }
+        main #articles .cv-categorie .article h2 {
+          font-weight: bold; }
+          @media only screen and (max-width: 370px) {
+            main #articles .cv-categorie .article h2 {
+              display: inline;
+              font-size: 0.95em; } }
+        main #articles .cv-categorie .article ul {
+          font-weight: bold; }
+          @media only screen and (max-width: 370px) {
+            main #articles .cv-categorie .article ul {
+              font-size: 0.85em;
+              font-weight: normal; } }
+        main #articles .cv-categorie .article p {
+          text-align: justify;
+          padding: 0 5px;
+          margin: 25px 0; }
+          @media only screen and (max-width: 370px) {
+            main #articles .cv-categorie .article p {
+              visibility: hidden;
+              display: none; } }
+        main #articles .cv-categorie .article .intro {
+          font-style: italic; }
+          @media only screen and (max-width: 370px) {
+            main #articles .cv-categorie .article .intro {
+              visibility: visible;
+              display: block; } }
 
 /*FOOTER */
 footer {
@@ -205,7 +229,7 @@ footer {
           margin: 10px 0; } }
       footer #text-footer .block-footer p, footer #text-footer .block-footer a {
         color: #464646;
-        font-size: 0.85em; }
+        font-size: 15px; }
   footer #top-footer {
     text-align: center; }
     footer #top-footer .notif {
